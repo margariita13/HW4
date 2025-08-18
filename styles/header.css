@@ -1,0 +1,69 @@
+.logotext {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #2196F3;
+    margin-left: 150px;
+    float: left;    
+    margin-top: 25px;
+    margin-bottom: 24px;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+
+.logotext-black{
+    color: black;
+}
+
+.logotext-white {
+    color: white;
+}
+
+header {
+    background-color: white;
+    padding: 8px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1600px;
+    max-height: 80px;
+    font-weight: 600;
+}
+
+nav .header_container--list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    max-width: 800px;
+}
+
+nav .contacts {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    margin-left: 300px;
+}
+
+.header_container--nav {
+    display: flex;
+    font-size: 14px;
+}
+
+.list-item {
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.item-a {
+    color: var(--coalBlack);
+}
+
+.item_a {
+    color: var(--gray);
+}
+
+.item-a:hover , .item_a:hover {
+    color: var(--lightBlue);
+}
