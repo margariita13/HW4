@@ -30,6 +30,20 @@ header {
     font-weight: 600;
 }
 
+.logotext {
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 24px;
+    margin-left: 160px;
+    margin-right: 100px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logotext-black {
+    color: black;
+}
+
 nav .header_container--list {
     list-style: none;
     display: flex;
@@ -64,6 +78,6 @@ nav .contacts {
     color: var(--gray);
 }
 
-.item-a:hover , .item_a:hover {
+.item-a:hover, .item_a:hover {
     color: var(--lightBlue);
 }
