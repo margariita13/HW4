@@ -3,7 +3,6 @@ main {
     font-family: "Roboto", sans-serif;
 }
 
-/* top section */
 .container_main-box {
     background-color: var(--darkBlue);
     padding: 16px 8px;
@@ -57,7 +56,36 @@ main {
     transform: scale(1.03);
 }
 
-/* why we section */
+.our-job_list-item {
+    position: relative;
+    padding-left: 60px;
+    min-height: 60px;
+}
+
+.our-job_list-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our-job_list-item:nth-child(1)::before {
+    background-image: url("../images/why-us/icon-1.png");
+}
+.our-job_list-item:nth-child(2)::before {
+    background-image: url("../images/why-us/icon-2.png");
+}
+.our-job_list-item:nth-child(3)::before {
+    background-image: url("../images/why-us/icon-3.png");
+}
+.our-job_list-item:nth-child(4)::before {
+    background-image: url("../images/why-us/icon-4.png");
+}
 .our-job_section {
     display: flex;
     justify-content: center;
@@ -121,7 +149,6 @@ main {
     border-radius: 5px;
 }
 
-/* our team section */
 .our-team_section {
     background-color: var(--white_gray);
     padding: 16px 8px;

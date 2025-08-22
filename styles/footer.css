@@ -8,23 +8,7 @@ footer {
     align-items: flex-start;
     margin-left: 180px;
     max-width: 1600px;
-    height: 260px;
-}
-
-.footer_logo {
-    margin-top: 80px;
-}
-
-.footer_contacts {
-    margin-top: 30px;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 3%;
-    color: var(--lightGray);
-}
-
-#adress {
-    color: white;
+    height: 350px;
 }
 
 .logotext {
@@ -49,3 +33,20 @@ footer {
 .logotext-white {
     color: white;
 }
+
+.footer_logo {
+    margin-top: 80px;
+}
+
+.footer_contacts {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    color: var(--lightGray);
+}
+
+.adress {
+    color: white;
+}
+
