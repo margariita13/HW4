@@ -32,6 +32,7 @@ main {
     text-align: center;
     text-transform: uppercase;
     margin-top: 200px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .main_btn--wrapper {
@@ -50,16 +51,18 @@ main {
     font-weight: 700;
     letter-spacing: 6%;
     color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .main_btn:hover {
     transform: scale(1.03);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
 .our-job_list-item {
     position: relative;
     padding-left: 60px;
-    min-height: 60px;
+    min-height: 100px;
 }
 
 .our-job_list-item::before {
@@ -132,6 +135,7 @@ main {
     font-size: 36px;
     font-weight: 700;
     margin-top: 150px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .o-j_imgs {
@@ -147,6 +151,7 @@ main {
 
 .image {
     border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .our-team_section {
@@ -162,6 +167,7 @@ main {
     font-size: 36px;
     font-weight: 700;
     margin-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .our-team ul {
@@ -176,9 +182,10 @@ main {
     display: flex;
     flex-direction: column;
     height: 338px;
-    box-shadow: 0px 2px 1px 0px #00000033;
-    box-shadow: 0px 1px 1px 0px #00000024;
-    box-shadow: 0px 1px 3px 0px #0000001F;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+                0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
 }
 
 .team-member strong {
@@ -200,4 +207,5 @@ main {
 
 .team-member:hover {
     transform: scale(1.03);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
 }
